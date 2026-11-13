@@ -1,0 +1,4 @@
+Model / data,MAE,RMSE,R2
+Linear Regression - TEST (unseen),1.3296,2.1346,0.6554
+Linear Regression - TRAIN,1.4401,2.6107,0.5572
+Baseline (always predict train mean) - TEST,2.7629,3.6401,-0.002

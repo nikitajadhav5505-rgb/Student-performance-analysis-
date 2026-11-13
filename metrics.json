@@ -1,0 +1,45 @@
+{
+  "test_set": {
+    "MAE": 1.329624964227664,
+    "RMSE": 2.1345787222448274,
+    "R2": 0.6554483623314851
+  },
+  "training_set": {
+    "MAE": 1.4400787586327817,
+    "RMSE": 2.6106841083152017,
+    "R2": 0.5572186526701247
+  },
+  "baseline_test_set": {
+    "MAE": 2.7629234374087392,
+    "RMSE": 3.6400966587307098,
+    "R2": -0.0019724916291559147
+  },
+  "cross_validation_mean": {
+    "MAE": 1.441475042857093,
+    "RMSE": 2.5928163495977175,
+    "R2": 0.5631738797736249
+  },
+  "cross_validation_std": {
+    "MAE": 0.065366095913996,
+    "RMSE": 0.36455121948300234,
+    "R2": 0.06165585287614534
+  },
+  "train_rows": 5284,
+  "test_rows": 1322,
+  "random_state": 42,
+  "test_size": 0.2,
+  "cv_folds": 5,
+  "features": [
+    "Hours_Studied",
+    "Attendance",
+    "Previous_Scores"
+  ],
+  "target": "Exam_Score",
+  "intercept_original_units": 42.029938863917394,
+  "share_within_2_marks": 0.7980332829046899,
+  "share_within_3_marks": 0.9440242057488654,
+  "share_within_5_marks": 0.9939485627836612,
+  "support_predicted_low_threshold": 65.0,
+  "support_predicted_low_count": 331,
+  "support_below_expectation_count": 126
+}

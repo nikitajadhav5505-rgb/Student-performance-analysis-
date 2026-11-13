@@ -1,0 +1,15 @@
+# Core libraries required by the project
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+scipy>=1.11            # used for a provenance check and a simple line fit in the notebook
+
+# To open and run the notebook
+notebook>=7.0
+ipykernel>=6.25
+
+# Only needed to regenerate the PDF report / evidence images (optional)
+reportlab>=4.0
+playwright>=1.40       # optional, only for src/build_evidence.py (then run: playwright install chromium)

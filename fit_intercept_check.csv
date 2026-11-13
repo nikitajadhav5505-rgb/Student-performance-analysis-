@@ -1,0 +1,3 @@
+fit_intercept,mean_cv_RMSE
+True,2.5928163495977175
+False,67.31376955345465

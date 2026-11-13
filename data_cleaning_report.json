@@ -1,0 +1,15 @@
+{
+  "rows_raw": 6607,
+  "missing_values_before": {
+    "Teacher_Quality": 78,
+    "Parental_Education_Level": 90,
+    "Distance_from_Home": 67
+  },
+  "missing_values_after": 0,
+  "duplicate_rows_found": 0,
+  "invalid_rows_found": 1,
+  "invalid_row_index": [
+    1525
+  ],
+  "rows_clean": 6606
+}
